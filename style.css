@@ -108,7 +108,7 @@ header .fa-bars{
 
 .home{
     min-height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("C:/Users/pavan.DESKTOP-3J19QCT/Desktop/TechJam2.0f/background.jpg") no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(...C:/Users/pavan.DESKTOP-3J19QCT/Desktop/TechJam2.0f/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
