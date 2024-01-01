@@ -23,6 +23,9 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+body {
+  overflow: hidden; /* This can cause scrollbars to be hidden */
+}
 .heading{
     font-size: 4rem;
     color: var(--pink);   
