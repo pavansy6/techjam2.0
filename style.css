@@ -301,12 +301,10 @@ header .fa-times{
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    filter: grayscale();
     transition: .2s;
 }
 
 .teacher .card-container .card:hover img{
-    filter: grayscale(0);
 }
 
 .teacher .card-container .card h3{
@@ -356,12 +354,12 @@ header .fa-times{
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    filter: grayscale();
+    
     transition: .2s;
 }
 
 .teacher2 .card-container .card:hover img{
-    filter: grayscale(0);
+    
 }
 
 .teacher2 .card-container .card h3{
