@@ -300,10 +300,10 @@ header .fa-times{
     filter: grayscale();
     transition: .2s;
 }
-
+/* 
 .teacher .card-container .card:hover img{
     filter: grayscale(0);
-}
+} */
 
 .teacher .card-container .card h3{
     color: var(--pink);
@@ -355,9 +355,9 @@ header .fa-times{
     transition: .2s;
 }
 
-.teacher2 .card-container .card:hover img{
+/* .teacher2 .card-container .card:hover img{
     filter: grayscale(0);
-}
+} */
 
 .teacher2 .card-container .card h3{
     color: var(--pink);
@@ -748,7 +748,7 @@ section.left .contacttitle h2::after{
     position: absolute;
     width: 25%;
     height: 3%;
-    background-color: dodgerblue;
+    background-color: rgb(255, 255, 255);
     top: calc(120% - 1px);
     left: 0;
 }
@@ -773,7 +773,7 @@ section.left .contactinfo{
 .icongroup .icon{
     width: 45px;
     height: 45px;
-    border: 2px solid dodgerblue;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 50%;
     margin-right: 20px;
     position: relative;
