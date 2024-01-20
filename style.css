@@ -297,7 +297,7 @@ header .fa-times{
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    filter: grayscale();
+    /* filter: grayscale(); */
     transition: .2s;
 }
 /* 
@@ -343,7 +343,7 @@ header .fa-times{
     margin: 2rem;
     background-color: #fff;
     text-align: center;
-    width: 28rem;
+    width: 35rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
@@ -351,12 +351,11 @@ header .fa-times{
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    filter: grayscale();
+    /* filter: grayscale(); */
     transition: .2s;
 }
-
 /* .teacher2 .card-container .card:hover img{
-    filter: grayscale(0);
+    filter: contrast();
 } */
 
 .teacher2 .card-container .card h3{
