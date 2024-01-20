@@ -19,14 +19,14 @@
     background-color: var(--pink);
     color: #fff;
 }
-html{
+/* html{
     font-size: 62.5%;
     overflow-x = hidden;
 }
 
 body{
     overflow-x = hidden;
-}
+} */
 
 .heading{
     font-size: 4rem;
@@ -396,7 +396,7 @@ header .fa-times{
 
 .event .box-container .box{
     height: 30rem;
-    width: 29rem;
+    width: 37rem;
     margin: 3.5rem 2rem;
     text-align: center;
     border-radius: 1rem;
@@ -779,7 +779,7 @@ section.left .contactinfo{
 .icongroup .icon{
     width: 45px;
     height: 45px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
     margin-right: 20px;
     position: relative;
@@ -789,7 +789,7 @@ section.left .contactinfo{
 
 .icongroup .icon i{
     font-size: 20px;
-    color: var(--darkblue);
+    color: #f9f9f9;
     position: absolute;
     left: 50%;
     transform: translate(-50%,50%);
@@ -797,7 +797,7 @@ section.left .contactinfo{
 
 .icongroup .details span{
     display: block;
-    color: #888;
+    color: #ffffff;
     font-size: 18px;
 }
 
