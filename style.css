@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
 
 :root{
-    --pink: #000000;
-    --violet:#ff0000;
+    --pink: #ff0000;
+    --violet:#000000;
 }
 
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* text-transform: capitalize; */
     text-decoration: none;
     outline: none;
@@ -19,14 +19,10 @@
     background-color: var(--pink);
     color: #fff;
 }
-/* html{
+html{
     font-size: 62.5%;
-    overflow-x = hidden;
+    overflow-x: hidden;
 }
-
-body{
-    overflow-x = hidden;
-} */
 
 .heading{
     font-size: 4rem;
@@ -110,7 +106,7 @@ header .fa-bars{
 
 .home{
     min-height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('../background.jpg') no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(../images/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -145,7 +141,7 @@ header .fa-bars{
 
 .home .content button{
     height: 4rem;
-    width: 20rem;
+    width: 27rem;
     border-radius: 5rem;
     background: var(--pink);
     color:#fff;
@@ -167,8 +163,8 @@ header .fa-bars{
 }
 
 .home .box-container .box{
-    height: 24rem;
-    width: 30rem;
+    height: 23rem;
+    width: 29rem;
     background:#fff;
     text-align: center;
     border-radius: 1rem;
@@ -293,7 +289,7 @@ header .fa-times{
     margin: 2rem;
     background-color: #fff;
     text-align: center;
-    width: 35rem;
+    width: 28rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
@@ -301,10 +297,12 @@ header .fa-times{
     height: 30rem;
     width: 100%;
     object-fit: cover;
+    filter: grayscale();
     transition: .2s;
 }
 
 .teacher .card-container .card:hover img{
+    filter: grayscale(0);
 }
 
 .teacher .card-container .card h3{
@@ -328,7 +326,6 @@ header .fa-times{
 .teacher .card-container .card .icons a:hover{
     color: var(--violet);
 }
-
 .teacher2{
     background: #f9f9f9;
 }
@@ -346,7 +343,7 @@ header .fa-times{
     margin: 2rem;
     background-color: #fff;
     text-align: center;
-    width: 40rem;
+    width: 28rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
@@ -354,12 +351,12 @@ header .fa-times{
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    
+    filter: grayscale();
     transition: .2s;
 }
 
 .teacher2 .card-container .card:hover img{
-    
+    filter: grayscale(0);
 }
 
 .teacher2 .card-container .card h3{
@@ -383,7 +380,6 @@ header .fa-times{
 .teacher2 .card-container .card .icons a:hover{
     color: var(--violet);
 }
-
 .event .box-container{
     width: 85%;
     display: flex;
@@ -395,8 +391,8 @@ header .fa-times{
 
 
 .event .box-container .box{
-    height: 30rem;
-    width: 37rem;
+    height: 25rem;
+    width: 40rem;
     margin: 3.5rem 2rem;
     text-align: center;
     border-radius: 1rem;
@@ -697,7 +693,6 @@ header .fa-times{
     }
 
 }
-
 .getintouch{
     width: 100%;
     min-height: 100vh;
@@ -753,7 +748,7 @@ section.left .contacttitle h2::after{
     position: absolute;
     width: 25%;
     height: 3%;
-    background-color: rgb(255, 0, 0);
+    background-color: dodgerblue;
     top: calc(120% - 1px);
     left: 0;
 }
@@ -769,7 +764,6 @@ section.left .contacttitle p{
 section.left .contactinfo{
     margin-bottom: 16px;
 }
-
 .contactinfo .icongroup{
     display: flex;
     align-items: center;
@@ -779,7 +773,7 @@ section.left .contactinfo{
 .icongroup .icon{
     width: 45px;
     height: 45px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid dodgerblue;
     border-radius: 50%;
     margin-right: 20px;
     position: relative;
@@ -789,7 +783,7 @@ section.left .contactinfo{
 
 .icongroup .icon i{
     font-size: 20px;
-    color: #f9f9f9;
+    color: var(--darkblue);
     position: absolute;
     left: 50%;
     transform: translate(-50%,50%);
@@ -797,34 +791,11 @@ section.left .contactinfo{
 
 .icongroup .details span{
     display: block;
-    color: #ffffff;
+    color: #888;
     font-size: 18px;
 }
 
 .icongroup .details span:nth-child(1){
     text-transform: uppercase;
     color: #ccc;
-}
-
-.customers-wrapper img{
-    margin-top: 20px;
-}
-
-.customers-wrapper{
-    margin-top: 60px;
-    margin-right: 0;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
-}
-
-.customers-wrapper img{
-    max-width: 75%;
-    /* justify-content: space-between; */
-}
-
-.customers .title{
-    margin-top: 60px;
-}
-
-.customers {
-    margin-bottom: 60px;
 }
